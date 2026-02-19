@@ -1,0 +1,164 @@
+# ✍️ The Art of Handwriting
+
+> *A complete visual compendium of twenty handwriting traditions — from medieval monastery scripts to modern brush lettering.*
+
+---
+
+## 🌐 Live Preview
+
+Open `index.html` in your browser — no build tools, no dependencies, no installation required.
+
+---
+
+## 📸 Features
+
+- **20 Handwriting Styles** — each with a live font specimen, history, era tag, and characteristic traits
+- **Interactive Practice Studio** — draw on a canvas with pressure-sensitive stroke simulation
+- **Alphabet Explorer** — view A–Z rendered in 14 different script fonts
+- **Historical Timeline** — nine centuries of the written hand compressed into one visual strip
+- **Rich Background Design** — layered parchment gradients, SVG quill watermarks, ink blobs, grain texture, animated rings, and decorative corner ornaments
+- **Fully Responsive** — works on desktop, tablet, and mobile
+- **Zero Dependencies** — pure HTML, CSS, and vanilla JavaScript
+
+---
+
+## 📁 File Structure
+
+```
+the-art-of-handwriting/
+│
+├── index.html        ← The entire site (single file)
+└── README.md         ← You are here
+```
+
+> Everything lives in one self-contained HTML file. Just rename `handwriting-styles.html` to `index.html` before uploading.
+
+---
+
+## 🖋️ The 20 Styles
+
+| # | Style | Era | Character |
+|---|-------|-----|-----------|
+| 01 | **Copperplate** | 1600s England | Dramatic thick-thin contrast, pointed nib |
+| 02 | **Blackletter** | 1100s Europe | Dense Gothic texture, broad-edge nib |
+| 03 | **Humanist Italic** | 1400s Italy | Renaissance clarity, branching joins |
+| 04 | **Spencerian** | 1850s America | Graceful hairlines, oval emphasis |
+| 05 | **Casual Script** | Modern | Personal, expressive, rule-free |
+| 06 | **Brush Lettering** | Contemporary | East Asian roots, pressure contrast |
+| 07 | **Retro Script** | 1950s America | Rounded, bouncy, mid-century commercial |
+| 08 | **Condensed Print** | Architectural | Tall all-caps, high legibility |
+| 09 | **Shadows Into Light** | Contemporary | Felt-tip intimacy, soft letterforms |
+| 10 | **Rough Chalk** | Vernacular | Textured, imperfect, artisan aesthetic |
+| 11 | **Marker Script** | Street / Protest | Bold, urgent, uncompromising |
+| 12 | **Vintage Cursive** | Mid-20th century | Grandparent warmth, wobbly baseline |
+| 13 | **Birthstone Flourish** | Contemporary | Tall ascenders, sweeping loops |
+| 14 | **Pinyon Script** | Victorian revival | Open counters, formal occasions |
+| 15 | **Dancing Script** | Contemporary | Bouncing baseline, joyful energy |
+| 16 | **Italianno** | Italian tradition | Elongated, lyrical, relaxed hand |
+| 17 | **Niconne** | Modern | Airy, diary-quality, open loops |
+| 18 | **Romantic Script** | Victorian | Impassioned, dramatic flourishes |
+| 19 | **Ruthie** | Fine calligraphy | Hairline strokes, wide spacing, ethereal |
+| 20 | **Caveat** | Contemporary | Honest notebook quality |
+
+---
+
+## 🎨 Design Highlights
+
+- **Typography** — 20+ Google Fonts loaded selectively per style (Great Vibes, UnifrakturMaguntia, Pinyon Script, Ruthie, Italianno, Birthstone, and more)
+- **Color palette** — warm parchment (`#f7f2e8`), deep ink (`#18110a`), sepia accents (`#c2a472`)
+- **Background layers** — radial gradient washes + SVG quill illustrations + ink blob watermarks + CSS film grain noise
+- **Hero section** — animated concentric rings, double border frame, corner ornaments (❧ ❦), diagonal ruled lines
+- **Specimen cards** — ruled notebook lines + red margin line on every specimen pane
+- **Practice Studio** — dark background with crosshatch pattern, canvas margin line, ghost letter overlay
+
+---
+
+## 🚀 How to Deploy on GitHub Pages
+
+1. **Rename the file** — rename `handwriting-styles.html` → `index.html`
+2. **Create a new GitHub repository**
+3. **Add files** via VS Code:
+   ```
+   index.html
+   README.md
+   ```
+4. **Push to GitHub:**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit — The Art of Handwriting"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   git push -u origin main
+   ```
+5. **Enable GitHub Pages:**
+   - Go to your repo → **Settings** → **Pages**
+   - Under *Source*, select `main` branch → `/ (root)`
+   - Click **Save**
+6. Your site will be live at:
+   ```
+   https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/
+   ```
+
+---
+
+## ✏️ Practice Studio — How It Works
+
+The Practice Studio simulates 10 different writing instruments:
+
+| Style | Pressure Ratio | Smoothing | Nib Type |
+|-------|---------------|-----------|----------|
+| Copperplate | High (5×) | Medium | Pointed flex |
+| Blackletter | Low (1.3×) | Minimal | Broad edge |
+| Italic | Medium (2.2×) | Medium | Broad edge |
+| Spencerian | Medium (3×) | High | Pointed flex |
+| Casual | Low (1.5×) | High | Ballpoint |
+| Brush | Very High (7×) | Low | Brush |
+| Retro | Low-Med (1.8×) | Medium | Round nib |
+| Marker | Low (1.2×) | Minimal | Flat marker |
+| Dancing | Medium (2×) | High | Round nib |
+| Chalk | Low (1.5×) | Minimal | Chalk stub |
+
+**Controls:**
+- 🎨 **7 ink colours** — ivory, sepia, cream, teal, lavender, mint, amber
+- 🖊️ **3 nib sizes** — Fine, Medium, Broad
+- 👻 **Ghost letter** — faint guide letter behind the canvas (toggleable)
+- 📖 **Technique guide** — step-by-step tips per style
+- ↩️ **Undo** — up to 25 steps
+- 💾 **Save** — exports canvas as PNG
+
+---
+
+## 🔤 Alphabet Explorer
+
+Switch between 14 font styles to see the full A–Z alphabet rendered in each script:
+
+`Copperplate` · `Blackletter` · `Spencerian` · `Brush` · `Retro` · `Print` · `Dancing` · `Caveat` · `Marker` · `Casual` · `Vintage` · `Birthstone` · `Italianno` · `Ruthie`
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| HTML5 | Structure and canvas element |
+| CSS3 | Animations, grid layout, custom properties, scroll-linked effects |
+| Vanilla JavaScript | Canvas drawing engine, IntersectionObserver scroll reveal, dynamic alphabet grid |
+| Google Fonts | 20+ typefaces loaded via CDN |
+| SVG | Decorative quill illustrations (inline) |
+
+---
+
+## 📄 License
+
+MIT — feel free to use, modify, and share.
+
+---
+
+<div align="center">
+
+*"Handwriting is architecture made personal."*
+
+Made with ✍️ and a lot of CSS
+
+</div>
